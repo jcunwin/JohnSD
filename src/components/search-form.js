@@ -53,14 +53,14 @@ export default class SearchForm extends Component {
             </div>
             <div className="search__section">
               <label className="small-label">Search for</label>
-              <Field name="keyword"  aria-label="Enter topic or organisation">
+              <Field name="keyword"  aria-label="Enter topic or organisation - go on - anything you want">
                 {props => (
                   <div>
                     <TextField
                       name={props.input.name}
                       value={props.input.value}
                       onChange={props.input.onChange}
-                      placeholder="Enter topic or organisation"
+                      placeholder="Enter topic or organisation - go on - anything you want"
                     />
                   </div>
                 )}
